@@ -64,12 +64,12 @@ header {
   color: var(--main-color);
 }
 
-#main-icon {
+#menu-icon {
+  display: none;
   font-size: 42px;
   color: var(--text-color);
   z-index: 10001;
   cursor: pointer;
-  display: none;
 }
 
 section {
@@ -281,6 +281,13 @@ span {
   font-size: 27px;
   font-weight: 600;
   letter-spacing: 1px;
+  color: #ffffff;
+  opacity: 0.5;
+}
+
+.in h4:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 
 .right-contact h2 {
